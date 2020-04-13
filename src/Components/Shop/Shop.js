@@ -8,7 +8,7 @@ const Shop = (props) => {
 
     const { products, addToCart } = props
 
-    console.log("from shop:", props)
+
 
     return (
         <div>
@@ -26,7 +26,7 @@ const Shop = (props) => {
 
 const mapStateToProps = state => {
     return {
-        cart: state.cart,
+
         products: state.products
     }
 }

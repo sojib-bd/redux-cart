@@ -3,7 +3,7 @@ import { removeFromCart } from '../../redux/actions/cartActions';
 import { connect } from 'react-redux';
 
 const Cart = (props) => {
-    console.log('from cart', props)
+
     const { cart, removeFromCart } = props
     return (
         <div>
