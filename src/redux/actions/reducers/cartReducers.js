@@ -1,10 +1,11 @@
 import { ADD_TO_CART, REMOVE_FROM_CART } from "../cartActions";
 
 const initialState = {
-    cart: []
+    cart: [],
+    products: []
 }
 
-const cartReducers = (state, action) => {
+const cartReducers = (state = initialState, action) => {
     switch (action.type) {
         case ADD_TO_CART:
             const newCart = [...state.cart, action.id];// new id is added to the empty cart
