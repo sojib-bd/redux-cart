@@ -8,7 +8,7 @@ const Shop = (props) => {
 
     const { products, addToCart } = props
 
-    console.log(props)
+    console.log("from shop:", props)
 
     return (
         <div>
